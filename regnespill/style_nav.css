@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+header nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(163, 206, 220); 
+}
+
+header nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background-color: lightgoldenrodyellow;
+}

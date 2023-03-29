@@ -1,0 +1,52 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+}
+
+main {
+    background-color:  rgb(247, 246, 243);
+    border: solid  rgb(247, 246, 243);
+    border-radius: 30px;
+    padding: 75px;
+
+    
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1 {
+    background-color: rgb(247, 246, 243);
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+input, button {
+    font-size: 18px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: lightblue;
+}
+
+
+.wrong {
+    background-color: lightcoral;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+
+
+
+
+
